@@ -13,6 +13,7 @@ public class AppForAuthor {
 	{
 		EntityManager em=utility.AuthorUtility.getEntityManagerFactory().createEntityManager();
 		int x=10;
+		int y=5;
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the First name");
 		String fn=sc.nextLine();
